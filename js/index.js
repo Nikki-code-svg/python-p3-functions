@@ -4,8 +4,10 @@
   => "Hello, programmer!"
 */
 function greetProgrammer() {
-  console.log("Hello, programmer!");
+   console ("Hello, programmer!");
 }
+  
+greetProgrammer();
 
 /*
   You should be able to call this function with one argument and see its output in the terminal:
@@ -13,8 +15,11 @@ function greetProgrammer() {
   => "Hello, Naureen!"
 */
 function greet(name) {
-  console.log(`Hello, ${name}!`);
+  console.log(`Hello, ${name} !`);
 }
+greet(Naureen);
+   
+
 
 /*
   You should be able to call this function with no arguments and see its output in the terminal:
@@ -28,7 +33,7 @@ function greet(name) {
 function greetWithDefault(name = "programmer") {
   console.log(`Hello, ${name}!`);
 }
-
+sayhi("Sunny");
 /*
   You should be able to call this function with two arguments and get back its return value:
   const sum = add(1, 2);
@@ -38,7 +43,8 @@ function greetWithDefault(name = "programmer") {
 function add(num1, num2) {
   return num1 + num2;
 }
-
+const sum = add(1, 2);
+console.log(sum);
 /*
   You should be able to call this function with two arguments and get back its return value:
   const result = halve(4);
